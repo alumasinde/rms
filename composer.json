@@ -1,0 +1,19 @@
+{
+    "name": "albatech/rms",
+    "description": "Enterprise Rental Management System (RMS)",
+    "type": "project",
+    "require": {
+        "php": ">=8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Core/Helpers/helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
